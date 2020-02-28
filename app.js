@@ -1,6 +1,7 @@
 //Creates new Express server
 const express = require('express');
 const app = express();
+//connect to database
 const mongoose = require('mongoose');
 const db = require('./config/keys').mongoURI;
 
